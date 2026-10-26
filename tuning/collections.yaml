@@ -1,0 +1,31 @@
+tasks:
+  - instruction
+  - math
+
+dataset:
+  instruction:
+    - tuluif
+  math:
+    - gsm8k
+
+sft_ratio:
+  - 1.0
+  - 0.75
+  - 0.5
+  - 0.25
+  - 0.0
+  - 0.1
+  - 0.01
+
+base_models:
+  - llama3-8B
+  - qwen2-7B
+  - qwen2-3B
+  - qwen2-2B
+  - qwen2-14B
+  - llama3-3B
+  - llama3-1B
+
+pft_types:
+  - dpo
+  - kto

@@ -171,3 +171,4 @@ tuning/outputs*/
 models/
 wandb/
 data/tmp/
+.DS_Store
